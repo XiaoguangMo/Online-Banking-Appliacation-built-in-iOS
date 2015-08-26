@@ -1,0 +1,628 @@
+TBookManage
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/AvailabilityMacros.h
+c000000004CB3FBB8000000000000673C
+t1286863800
+s26428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sqlite3.h
+c000000004CC10A9E0000000000042B54
+t1287719582
+s273236
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC10AB400000000000CE100
+t1287719604
+s844032
+
+N/Volumes/NO NAME/图书管理系统/Book.h
+c000000004CCE54E400000000000004B2
+t1288590564
+s1202
+i<Foundation/Foundation.h>
+
+N/Volumes/NO NAME/图书管理系统/Book.m
+c000000004CD7EEAC000000000000128C
+t1289219756
+s4748
+i"Book.h"
+i"DataBase.h"
+
+N/Volumes/NO NAME/图书管理系统/Book.sqlite
+c000000004CCE5D3C0000000000008000
+t1288592700
+s32768
+
+N/Volumes/NO NAME/图书管理系统/BookManage_Prefix.pch
+c000000004CC793DA00000000000000BD
+t1288147930
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.h
+c000000004CC7D55C0000000000000193
+t1288164700
+s403
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m
+c000000004CCE68440000000000000E22
+t1288595524
+s3618
+i"BookManageAppDelegate.h"
+i"HomeViewController.h"
+i"FavViewController.h"
+i"SearchViewController.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.h
+c000000004CCFC8F2000000000000019E
+t1288685810
+s414
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m
+c000000004CCFD0BE0000000000001438
+t1288687806
+s5176
+i"CreatBookViewController.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.h
+c000000004CCFCD500000000000000237
+t1288686928
+s567
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m
+c000000004CD0C59A000000000000105D
+t1288750490
+s4189
+i"DetailViewController.h"
+i"FavBook.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/FavViewController.h
+c000000004CCE95EA00000000000001D6
+t1288607210
+s470
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m
+c000000004CCF7C040000000000001704
+t1288666116
+s5892
+i"FavViewController.h"
+i"DetailViewController.h"
+i"FavBook.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.h
+c000000004CCF747C000000000000025E
+t1288664188
+s606
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m
+c000000004CCFD2F6000000000000172A
+t1288688374
+s5930
+i"HomeViewController.h"
+i"CreatBookViewController.h"
+i"DetailViewController.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.h
+c000000004CCEA00E00000000000001AA
+t1288609806
+s426
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m
+c000000004CCFC0000000000000000DC0
+t1288683520
+s3520
+i"SearchViewController.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/image.png
+c000000004CC7FA8A00000000000010EF
+t1288174218
+s4335
+
+N/Volumes/NO NAME/图书管理系统/DataBase.h
+c000000004CC7B1F20000000000000135
+t1288155634
+s309
+i<Foundation/Foundation.h>
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/DataBase.m
+c000000004CCE89A80000000000000529
+t1288604072
+s1321
+i"DataBase.h"
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/FavBook.h
+c000000004CCE890200000000000003BD
+t1288603906
+s957
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/FavBook.m
+c000000004CCE9C9E0000000000001324
+t1288608926
+s4900
+i"FavBook.h"
+i"FavDataBase.h"
+
+N/Volumes/NO NAME/图书管理系统/FavBook.sqlite
+c000000004CCE8D720000000000000800
+t1288605042
+s2048
+
+N/Volumes/NO NAME/图书管理系统/FavDataBase.h
+c000000004CCE8A86000000000000013C
+t1288604294
+s316
+i<Foundation/Foundation.h>
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/FavDataBase.m
+c000000004CCE8A860000000000000537
+t1288604294
+s1335
+i"FavDataBase.h"
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabase.h
+c000000004C110BBA00000000000020DB
+t1276185530
+s8411
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseConnectionProvider.h
+c000000004C110BBA00000000000008CD
+t1276185530
+s2253
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationDelegate.h
+c000000004C110BBA0000000000000C20
+t1276185530
+s3104
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationManager.h
+c000000004C110BBA0000000000000A00
+t1276185530
+s2560
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationTransactionManager.h
+c000000004C110BBA0000000000000E10
+t1276185530
+s3600
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationVersionManager.h
+c000000004C110BBA0000000000000EA8
+t1276185530
+s3752
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLPreparedStatement.h
+c000000004C110BBA00000000000014BF
+t1276185530
+s5311
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLResultSet.h
+c000000004C110BBA000000000000244B
+t1276185530
+s9291
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteConnectionProvider.h
+c000000004C110BBA0000000000000707
+t1276185530
+s1799
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteDatabase.h
+c000000004C110BBA0000000000000B5C
+t1276185530
+s2908
+i"sqlite3.h"
+i<sqlite3.h>
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteMigrationVersionManager.h
+c000000004C110BBA00000000000006E4
+t1276185530
+s1764
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqlitePreparedStatement.h
+c000000004C110BBA0000000000000BC9
+t1276185530
+s3017
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteResultSet.h
+c000000004C110BBA000000000000088C
+t1276185530
+s2188
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PlausibleDatabase.h
+c000000004C110BBA0000000000002202
+t1276185530
+s8706
+i<Foundation/Foundation.h>
+i<AvailabilityMacros.h>
+i"PLResultSet.h"
+i"PLPreparedStatement.h"
+i"PLDatabase.h"
+i"PLSqliteDatabase.h"
+i"PLSqlitePreparedStatement.h"
+i"PLSqliteResultSet.h"
+i"PLDatabaseConnectionProvider.h"
+i"PLSqliteConnectionProvider.h"
+i"PLDatabaseMigrationVersionManager.h"
+i"PLDatabaseMigrationTransactionManager.h"
+i"PLDatabaseMigrationManager.h"
+i"PLDatabaseMigrationDelegate.h"
+i"PLSqliteMigrationVersionManager.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/PlausibleDatabase
+c000000004C110BBA0000000000076EE4
+t1276185530
+s487140
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/Book.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/BookManage
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/BookManage.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/BookManageAppDelegate.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/CreatBookViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/DataBase.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/DetailViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/FavBook.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/FavDataBase.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/FavViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/HomeViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/SearchViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/Book.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/BookManage
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/BookManage.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/BookManageAppDelegate.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/CreatBookViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/DataBase.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/DetailViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/FavBook.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/FavDataBase.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/FavViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/HomeViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/SearchViewController.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app.dSYM
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/Book.sqlite
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/BookManage
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/FavBook.sqlite
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/Info.plist
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/PkgInfo
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/ResourceRules.plist
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/dsafsd .nib
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/fav.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/home.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/image.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/search.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/dsafsd .xib
+c000000004CCE5C54000000000000183A
+t1288592468
+s6202
+
+N/Volumes/NO NAME/图书管理系统/fav.png
+c0000000049717D8A00000000000000E3
+t1232174474
+s227
+
+N/Volumes/NO NAME/图书管理系统/home.png
+c0000000049717D2C0000000000000177
+t1232174380
+s375
+
+N/Volumes/NO NAME/图书管理系统/main.m
+c000000004CC7D466000000000000017E
+t1288164454
+s382
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/search.png
+c0000000049717C4E0000000000000184
+t1232174158
+s388
+
+N/var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-brmdazqtezdqocdpwcniwlyvkzrc/BookManage_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-eihojgirlrmnzvaikwljxowvdevb/BookManage_Prefix.pch.gch
+t2
+s0
+
+NBookManage-Info.plist
+c000000004CC7D4660000000000000356
+t1288164454
+s854
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/Book.o "/Volumes/NO NAME/图书管理系统/Book.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/BookManageAppDelegate.o "/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/CreatBookViewController.o "/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/DataBase.o "/Volumes/NO NAME/图书管理系统/DataBase.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/DetailViewController.o "/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/FavBook.o "/Volumes/NO NAME/图书管理系统/FavBook.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/FavDataBase.o "/Volumes/NO NAME/图书管理系统/FavDataBase.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/FavViewController.o "/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/HomeViewController.o "/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/SearchViewController.o "/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/main.o "/Volumes/NO NAME/图书管理系统/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/Book.o "/Volumes/NO NAME/图书管理系统/Book.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/BookManageAppDelegate.o "/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/CreatBookViewController.o "/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/DataBase.o "/Volumes/NO NAME/图书管理系统/DataBase.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/DetailViewController.o "/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/FavBook.o "/Volumes/NO NAME/图书管理系统/FavBook.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/FavDataBase.o "/Volumes/NO NAME/图书管理系统/FavDataBase.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/FavViewController.o "/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/HomeViewController.o "/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/SearchViewController.o "/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/main.o "/Volumes/NO NAME/图书管理系统/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Volumes/NO NAME/图书管理系统/dsafsd .xib"
+r0
+
+CCopyPNGFile "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/fav.png" fav.png
+r0
+
+CCopyPNGFile "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/home.png" home.png
+r0
+
+CCopyPNGFile "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/image.png" Classes/image.png
+r0
+
+CCopyPNGFile "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/search.png" search.png
+r0
+
+CCpResource build/Release-iphoneos/BookManage.app/Book.sqlite Book.sqlite
+r0
+
+CCpResource build/Release-iphoneos/BookManage.app/FavBook.sqlite FavBook.sqlite
+r0
+
+CCpResource build/Release-iphoneos/BookManage.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/BookManage" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app.dSYM" "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/BookManage"
+r0
+
+CLd "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv6/BookManage" normal armv6
+r0
+
+CLd "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphoneos/BookManage.build/Objects-normal/armv7/BookManage" normal armv7
+r0
+
+CProcessInfoPlistFile "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app/Info.plist" BookManage-Info.plist
+r0
+
+CProcessPCH /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-brmdazqtezdqocdpwcniwlyvkzrc/BookManage_Prefix.pch.gch BookManage_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-eihojgirlrmnzvaikwljxowvdevb/BookManage_Prefix.pch.gch BookManage_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app"
+r0
+
+CValidate "/Volumes/NO NAME/图书管理系统/build/Release-iphoneos/BookManage.app"
+r0
+

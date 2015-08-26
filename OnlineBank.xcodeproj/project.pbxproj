@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BookManageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BookManageAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		387D319D1277CBB1009009DA /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 387D319C1277CBB1009009DA /* DataBase.m */; };
+		387D31A51277D1E5009009DA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 387D31A41277D1E5009009DA /* libsqlite3.dylib */; };
+		387D33311277F602009009DA /* PlausibleDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387D33301277F602009009DA /* PlausibleDatabase.framework */; };
+		387D33681277F6E7009009DA /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 387D33671277F6E7009009DA /* Book.m */; };
+		387D33E312780C2F009009DA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387D33E212780C2F009009DA /* HomeViewController.m */; };
+		387D341212780F12009009DA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387D341112780F12009009DA /* DetailViewController.m */; };
+		387D341512781053009009DA /* CreatBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387D341412781053009009DA /* CreatBookViewController.m */; };
+		387D36101278321F009009DA /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 387D360F1278321F009009DA /* image.png */; };
+		38D7C24A127E73EF00417AF3 /* FavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7C249127E73EF00417AF3 /* FavViewController.m */; };
+		38D7C24F127E746400417AF3 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7C24E127E746400417AF3 /* SearchViewController.m */; };
+		38D7C386127E93D500417AF3 /* dsafsd .xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D7C385127E93D500417AF3 /* dsafsd .xib */; };
+		38D7C389127E94D500417AF3 /* Book.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 38D7C388127E94D500417AF3 /* Book.sqlite */; };
+		38D7C60A127EBAF500417AF3 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D7C609127EBAF500417AF3 /* home.png */; };
+		38D7C60C127EBB0B00417AF3 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D7C60B127EBB0B00417AF3 /* search.png */; };
+		38D7C60E127EBB2400417AF3 /* fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D7C60D127EBB2400417AF3 /* fav.png */; };
+		38D7C61E127EBC3300417AF3 /* MemoDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7C61D127EBC3300417AF3 /* MemoDataBase.m */; };
+		38D7C621127EBF3100417AF3 /* FavBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D7C620127EBF3100417AF3 /* FavBook.m */; };
+		38D7C7AB127ED37500417AF3 /* FavBook.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 38D7C7AA127ED37500417AF3 /* FavBook.sqlite */; };
+		9F183ECF167565F500F13D22 /* 10039035.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F183ECC167565F500F13D22 /* 10039035.jpg */; };
+		9F183ED0167565F500F13D22 /* 1-12020f92124.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F183ECD167565F500F13D22 /* 1-12020f92124.jpg */; };
+		9F183ED1167565F500F13D22 /* 6c697577616e6c696e3132332b313734342c312c3639347833303030.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F183ECE167565F500F13D22 /* 6c697577616e6c696e3132332b313734342c312c3639347833303030.jpg */; };
+		9F2CA51B166B601900FC1AAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA507166B601900FC1AAF /* ViewController.m */; };
+		9F2CA51C166B601900FC1AAF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2CA508166B601900FC1AAF /* ViewController.xib */; };
+		9F2CA51D166B601900FC1AAF /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA50A166B601900FC1AAF /* HistoryViewController.m */; };
+		9F2CA51E166B601900FC1AAF /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2CA50B166B601900FC1AAF /* HistoryViewController.xib */; };
+		9F2CA51F166B601900FC1AAF /* MaintainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA50D166B601900FC1AAF /* MaintainViewController.m */; };
+		9F2CA520166B601900FC1AAF /* MaintainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2CA50E166B601900FC1AAF /* MaintainViewController.xib */; };
+		9F2CA521166B601900FC1AAF /* TransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA510166B601900FC1AAF /* TransferViewController.m */; };
+		9F2CA522166B601900FC1AAF /* TransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2CA511166B601900FC1AAF /* TransferViewController.xib */; };
+		9F2CA524166B601900FC1AAF /* DepositViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2CA514166B601900FC1AAF /* DepositViewController.xib */; };
+		9F2CA525166B601900FC1AAF /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA516166B601900FC1AAF /* BalanceViewController.m */; };
+		9F2CA526166B601900FC1AAF /* BalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2CA517166B601900FC1AAF /* BalanceViewController.xib */; };
+		9F2CA527166B601900FC1AAF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA519166B601900FC1AAF /* MainViewController.m */; };
+		9F2CA528166B601900FC1AAF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2CA51A166B601900FC1AAF /* MainViewController.xib */; };
+		9F327F7C1672AB10000C5EE8 /* SetDepositDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F327F7A1672AB10000C5EE8 /* SetDepositDetailViewController.m */; };
+		9F327F7D1672AB10000C5EE8 /* SetDepositDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F327F7B1672AB10000C5EE8 /* SetDepositDetailViewController.xib */; };
+		9F327F8616745DA5000C5EE8 /* CancelDepositViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F327F8416745DA5000C5EE8 /* CancelDepositViewController.m */; };
+		9F327F8716745DA5000C5EE8 /* CancelDepositViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F327F8516745DA5000C5EE8 /* CancelDepositViewController.xib */; };
+		9F327F8B1674670B000C5EE8 /* CancelDepositDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F327F891674670B000C5EE8 /* CancelDepositDetailViewController.m */; };
+		9F327F8C1674670B000C5EE8 /* CancelDepositDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F327F8A1674670B000C5EE8 /* CancelDepositDetailViewController.xib */; };
+		9F327F90167490B5000C5EE8 /* HistoryPeriod2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F327F8E167490B4000C5EE8 /* HistoryPeriod2ViewController.m */; };
+		9F327F91167490B5000C5EE8 /* HistoryPeriod2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F327F8F167490B4000C5EE8 /* HistoryPeriod2ViewController.xib */; };
+		9F327F951674CFB0000C5EE8 /* TransferDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F327F931674CFAF000C5EE8 /* TransferDetailViewController.m */; };
+		9F327F961674CFB0000C5EE8 /* TransferDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F327F941674CFB0000C5EE8 /* TransferDetailViewController.xib */; };
+		9F327F971675243F000C5EE8 /* DepositViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CA513166B601900FC1AAF /* DepositViewController.m */; };
+		9FA5FDCD16755A7C00B21D65 /* 2009112100015180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FA5FDCC16755A7C00B21D65 /* 2009112100015180.jpg */; };
+		9FF4DEE7166E9DE0004FDDC9 /* HistoryPeriodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4DEE5166E9DE0004FDDC9 /* HistoryPeriodViewController.m */; };
+		9FF4DEE8166E9DE0004FDDC9 /* HistoryPeriodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4DEE6166E9DE0004FDDC9 /* HistoryPeriodViewController.xib */; };
+		9FF4DEEF1670D057004FDDC9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4DEED1670D057004FDDC9 /* 1.png */; };
+		9FF4DEF01670D057004FDDC9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF4DEEE1670D057004FDDC9 /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BookManageAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookManageAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BookManageAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookManageAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* OnlineBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* OnlineBank_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineBank_Prefix.pch; sourceTree = "<group>"; };
+		387D319C1277CBB1009009DA /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		387D31A41277D1E5009009DA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		387D33301277F602009009DA /* PlausibleDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlausibleDatabase.framework; sourceTree = "<group>"; };
+		387D33661277F6E7009009DA /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		387D33671277F6E7009009DA /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		387D33E112780C2F009009DA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/HomeViewController.h; sourceTree = "<group>"; };
+		387D33E212780C2F009009DA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/HomeViewController.m; sourceTree = "<group>"; };
+		387D341012780F12009009DA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = Classes/DetailViewController.h; sourceTree = "<group>"; };
+		387D341112780F12009009DA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Classes/DetailViewController.m; sourceTree = "<group>"; };
+		387D341312781053009009DA /* CreatBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreatBookViewController.h; path = Classes/CreatBookViewController.h; sourceTree = "<group>"; };
+		387D341412781053009009DA /* CreatBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreatBookViewController.m; path = Classes/CreatBookViewController.m; sourceTree = "<group>"; };
+		387D360F1278321F009009DA /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = Classes/image.png; sourceTree = "<group>"; };
+		389B53E6127E64D200366203 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		38D7C248127E73EF00417AF3 /* FavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavViewController.h; path = Classes/FavViewController.h; sourceTree = "<group>"; };
+		38D7C249127E73EF00417AF3 /* FavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavViewController.m; path = Classes/FavViewController.m; sourceTree = "<group>"; };
+		38D7C24D127E746400417AF3 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = Classes/SearchViewController.h; sourceTree = "<group>"; };
+		38D7C24E127E746400417AF3 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Classes/SearchViewController.m; sourceTree = "<group>"; };
+		38D7C385127E93D500417AF3 /* dsafsd .xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "dsafsd .xib"; sourceTree = "<group>"; };
+		38D7C388127E94D500417AF3 /* Book.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Book.sqlite; sourceTree = "<group>"; };
+		38D7C609127EBAF500417AF3 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		38D7C60B127EBB0B00417AF3 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		38D7C60D127EBB2400417AF3 /* fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav.png; sourceTree = "<group>"; };
+		38D7C61C127EBC3300417AF3 /* MemoDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoDataBase.h; sourceTree = "<group>"; };
+		38D7C61D127EBC3300417AF3 /* MemoDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoDataBase.m; sourceTree = "<group>"; };
+		38D7C61F127EBF3100417AF3 /* FavBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavBook.h; sourceTree = "<group>"; };
+		38D7C620127EBF3100417AF3 /* FavBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavBook.m; sourceTree = "<group>"; };
+		38D7C7AA127ED37500417AF3 /* FavBook.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FavBook.sqlite; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* OnlineBank-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OnlineBank-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9F183ECC167565F500F13D22 /* 10039035.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10039035.jpg; sourceTree = "<group>"; };
+		9F183ECD167565F500F13D22 /* 1-12020f92124.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-12020f92124.jpg"; sourceTree = "<group>"; };
+		9F183ECE167565F500F13D22 /* 6c697577616e6c696e3132332b313734342c312c3639347833303030.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6c697577616e6c696e3132332b313734342c312c3639347833303030.jpg; sourceTree = "<group>"; };
+		9F2CA506166B601900FC1AAF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F2CA507166B601900FC1AAF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F2CA508166B601900FC1AAF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9F2CA509166B601900FC1AAF /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		9F2CA50A166B601900FC1AAF /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		9F2CA50B166B601900FC1AAF /* HistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		9F2CA50C166B601900FC1AAF /* MaintainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaintainViewController.h; sourceTree = "<group>"; };
+		9F2CA50D166B601900FC1AAF /* MaintainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaintainViewController.m; sourceTree = "<group>"; };
+		9F2CA50E166B601900FC1AAF /* MaintainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaintainViewController.xib; sourceTree = "<group>"; };
+		9F2CA50F166B601900FC1AAF /* TransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferViewController.h; sourceTree = "<group>"; };
+		9F2CA510166B601900FC1AAF /* TransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferViewController.m; sourceTree = "<group>"; };
+		9F2CA511166B601900FC1AAF /* TransferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferViewController.xib; sourceTree = "<group>"; };
+		9F2CA512166B601900FC1AAF /* DepositViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositViewController.h; sourceTree = "<group>"; };
+		9F2CA513166B601900FC1AAF /* DepositViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepositViewController.m; sourceTree = "<group>"; };
+		9F2CA514166B601900FC1AAF /* DepositViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepositViewController.xib; sourceTree = "<group>"; };
+		9F2CA515166B601900FC1AAF /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
+		9F2CA516166B601900FC1AAF /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
+		9F2CA517166B601900FC1AAF /* BalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceViewController.xib; sourceTree = "<group>"; };
+		9F2CA518166B601900FC1AAF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9F2CA519166B601900FC1AAF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9F2CA51A166B601900FC1AAF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9F327F791672AB10000C5EE8 /* SetDepositDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetDepositDetailViewController.h; sourceTree = "<group>"; };
+		9F327F7A1672AB10000C5EE8 /* SetDepositDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetDepositDetailViewController.m; sourceTree = "<group>"; };
+		9F327F7B1672AB10000C5EE8 /* SetDepositDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetDepositDetailViewController.xib; sourceTree = "<group>"; };
+		9F327F8316745DA4000C5EE8 /* CancelDepositViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelDepositViewController.h; sourceTree = "<group>"; };
+		9F327F8416745DA5000C5EE8 /* CancelDepositViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelDepositViewController.m; sourceTree = "<group>"; };
+		9F327F8516745DA5000C5EE8 /* CancelDepositViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CancelDepositViewController.xib; sourceTree = "<group>"; };
+		9F327F881674670A000C5EE8 /* CancelDepositDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelDepositDetailViewController.h; sourceTree = "<group>"; };
+		9F327F891674670B000C5EE8 /* CancelDepositDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelDepositDetailViewController.m; sourceTree = "<group>"; };
+		9F327F8A1674670B000C5EE8 /* CancelDepositDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CancelDepositDetailViewController.xib; sourceTree = "<group>"; };
+		9F327F8D167490B4000C5EE8 /* HistoryPeriod2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryPeriod2ViewController.h; sourceTree = "<group>"; };
+		9F327F8E167490B4000C5EE8 /* HistoryPeriod2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryPeriod2ViewController.m; sourceTree = "<group>"; };
+		9F327F8F167490B4000C5EE8 /* HistoryPeriod2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryPeriod2ViewController.xib; sourceTree = "<group>"; };
+		9F327F921674CFAF000C5EE8 /* TransferDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferDetailViewController.h; sourceTree = "<group>"; };
+		9F327F931674CFAF000C5EE8 /* TransferDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferDetailViewController.m; sourceTree = "<group>"; };
+		9F327F941674CFB0000C5EE8 /* TransferDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferDetailViewController.xib; sourceTree = "<group>"; };
+		9FA5FDCC16755A7C00B21D65 /* 2009112100015180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2009112100015180.jpg; sourceTree = "<group>"; };
+		9FF4DEE4166E9DE0004FDDC9 /* HistoryPeriodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryPeriodViewController.h; sourceTree = "<group>"; };
+		9FF4DEE5166E9DE0004FDDC9 /* HistoryPeriodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryPeriodViewController.m; sourceTree = "<group>"; };
+		9FF4DEE6166E9DE0004FDDC9 /* HistoryPeriodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryPeriodViewController.xib; sourceTree = "<group>"; };
+		9FF4DEED1670D057004FDDC9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		9FF4DEEE1670D057004FDDC9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				387D31A51277D1E5009009DA /* libsqlite3.dylib in Frameworks */,
+				387D33311277F602009009DA /* PlausibleDatabase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9F327F9A16752717000C5EE8 /* Deposit */,
+				9F327F991675270F000C5EE8 /* Transfer */,
+				9F327F9816752703000C5EE8 /* History */,
+				9F2CA506166B601900FC1AAF /* ViewController.h */,
+				9F2CA507166B601900FC1AAF /* ViewController.m */,
+				9F2CA508166B601900FC1AAF /* ViewController.xib */,
+				9F2CA518166B601900FC1AAF /* MainViewController.h */,
+				9F2CA519166B601900FC1AAF /* MainViewController.m */,
+				9F2CA51A166B601900FC1AAF /* MainViewController.xib */,
+				9F2CA515166B601900FC1AAF /* BalanceViewController.h */,
+				9F2CA516166B601900FC1AAF /* BalanceViewController.m */,
+				9F2CA517166B601900FC1AAF /* BalanceViewController.xib */,
+				9F2CA50C166B601900FC1AAF /* MaintainViewController.h */,
+				9F2CA50D166B601900FC1AAF /* MaintainViewController.m */,
+				9F2CA50E166B601900FC1AAF /* MaintainViewController.xib */,
+				1D3623240D0F684500981E51 /* BookManageAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BookManageAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* OnlineBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				387D319A1277CB89009009DA /* DataBase */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				9F026375166E8D6D00D93897 /* old */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* OnlineBank_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F183ECC167565F500F13D22 /* 10039035.jpg */,
+				9F183ECD167565F500F13D22 /* 1-12020f92124.jpg */,
+				9F183ECE167565F500F13D22 /* 6c697577616e6c696e3132332b313734342c312c3639347833303030.jpg */,
+				9FA5FDCC16755A7C00B21D65 /* 2009112100015180.jpg */,
+				9FF4DEED1670D057004FDDC9 /* 1.png */,
+				9FF4DEEE1670D057004FDDC9 /* 2.png */,
+				38D7C388127E94D500417AF3 /* Book.sqlite */,
+				38D7C7AA127ED37500417AF3 /* FavBook.sqlite */,
+				8D1107310486CEB800E47090 /* OnlineBank-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				387D33301277F602009009DA /* PlausibleDatabase.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				387D31A41277D1E5009009DA /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		387D319A1277CB89009009DA /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				389B53E6127E64D200366203 /* DataBase.h */,
+				387D319C1277CBB1009009DA /* DataBase.m */,
+				38D7C61C127EBC3300417AF3 /* MemoDataBase.h */,
+				38D7C61D127EBC3300417AF3 /* MemoDataBase.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		9F026375166E8D6D00D93897 /* old */ = {
+			isa = PBXGroup;
+			children = (
+				38D7C60D127EBB2400417AF3 /* fav.png */,
+				38D7C609127EBAF500417AF3 /* home.png */,
+				38D7C60B127EBB0B00417AF3 /* search.png */,
+				387D360F1278321F009009DA /* image.png */,
+				38D7C385127E93D500417AF3 /* dsafsd .xib */,
+				387D33661277F6E7009009DA /* Book.h */,
+				387D33671277F6E7009009DA /* Book.m */,
+				38D7C61F127EBF3100417AF3 /* FavBook.h */,
+				38D7C620127EBF3100417AF3 /* FavBook.m */,
+				387D33E112780C2F009009DA /* HomeViewController.h */,
+				387D33E212780C2F009009DA /* HomeViewController.m */,
+				387D341312781053009009DA /* CreatBookViewController.h */,
+				387D341412781053009009DA /* CreatBookViewController.m */,
+				387D341012780F12009009DA /* DetailViewController.h */,
+				387D341112780F12009009DA /* DetailViewController.m */,
+				38D7C248127E73EF00417AF3 /* FavViewController.h */,
+				38D7C249127E73EF00417AF3 /* FavViewController.m */,
+				38D7C24D127E746400417AF3 /* SearchViewController.h */,
+				38D7C24E127E746400417AF3 /* SearchViewController.m */,
+			);
+			name = old;
+			sourceTree = "<group>";
+		};
+		9F327F9816752703000C5EE8 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9F2CA509166B601900FC1AAF /* HistoryViewController.h */,
+				9F2CA50A166B601900FC1AAF /* HistoryViewController.m */,
+				9F2CA50B166B601900FC1AAF /* HistoryViewController.xib */,
+				9FF4DEE4166E9DE0004FDDC9 /* HistoryPeriodViewController.h */,
+				9FF4DEE5166E9DE0004FDDC9 /* HistoryPeriodViewController.m */,
+				9FF4DEE6166E9DE0004FDDC9 /* HistoryPeriodViewController.xib */,
+				9F327F8D167490B4000C5EE8 /* HistoryPeriod2ViewController.h */,
+				9F327F8E167490B4000C5EE8 /* HistoryPeriod2ViewController.m */,
+				9F327F8F167490B4000C5EE8 /* HistoryPeriod2ViewController.xib */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		9F327F991675270F000C5EE8 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				9F2CA50F166B601900FC1AAF /* TransferViewController.h */,
+				9F2CA510166B601900FC1AAF /* TransferViewController.m */,
+				9F2CA511166B601900FC1AAF /* TransferViewController.xib */,
+				9F327F921674CFAF000C5EE8 /* TransferDetailViewController.h */,
+				9F327F931674CFAF000C5EE8 /* TransferDetailViewController.m */,
+				9F327F941674CFB0000C5EE8 /* TransferDetailViewController.xib */,
+			);
+			name = Transfer;
+			sourceTree = "<group>";
+		};
+		9F327F9A16752717000C5EE8 /* Deposit */ = {
+			isa = PBXGroup;
+			children = (
+				9F2CA512166B601900FC1AAF /* DepositViewController.h */,
+				9F2CA513166B601900FC1AAF /* DepositViewController.m */,
+				9F2CA514166B601900FC1AAF /* DepositViewController.xib */,
+				9F327F791672AB10000C5EE8 /* SetDepositDetailViewController.h */,
+				9F327F7A1672AB10000C5EE8 /* SetDepositDetailViewController.m */,
+				9F327F7B1672AB10000C5EE8 /* SetDepositDetailViewController.xib */,
+				9F327F8316745DA4000C5EE8 /* CancelDepositViewController.h */,
+				9F327F8416745DA5000C5EE8 /* CancelDepositViewController.m */,
+				9F327F8516745DA5000C5EE8 /* CancelDepositViewController.xib */,
+				9F327F881674670A000C5EE8 /* CancelDepositDetailViewController.h */,
+				9F327F891674670B000C5EE8 /* CancelDepositDetailViewController.m */,
+				9F327F8A1674670B000C5EE8 /* CancelDepositDetailViewController.xib */,
+			);
+			name = Deposit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* OnlineBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OnlineBank" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnlineBank;
+			productName = BookManage;
+			productReference = 1D6058910D05DD3D006BFB54 /* OnlineBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OnlineBank" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* OnlineBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387D36101278321F009009DA /* image.png in Resources */,
+				38D7C386127E93D500417AF3 /* dsafsd .xib in Resources */,
+				38D7C389127E94D500417AF3 /* Book.sqlite in Resources */,
+				38D7C60A127EBAF500417AF3 /* home.png in Resources */,
+				38D7C60C127EBB0B00417AF3 /* search.png in Resources */,
+				38D7C60E127EBB2400417AF3 /* fav.png in Resources */,
+				38D7C7AB127ED37500417AF3 /* FavBook.sqlite in Resources */,
+				9F2CA51C166B601900FC1AAF /* ViewController.xib in Resources */,
+				9F2CA51E166B601900FC1AAF /* HistoryViewController.xib in Resources */,
+				9F2CA520166B601900FC1AAF /* MaintainViewController.xib in Resources */,
+				9F2CA522166B601900FC1AAF /* TransferViewController.xib in Resources */,
+				9F2CA524166B601900FC1AAF /* DepositViewController.xib in Resources */,
+				9F2CA526166B601900FC1AAF /* BalanceViewController.xib in Resources */,
+				9F2CA528166B601900FC1AAF /* MainViewController.xib in Resources */,
+				9FF4DEE8166E9DE0004FDDC9 /* HistoryPeriodViewController.xib in Resources */,
+				9FF4DEEF1670D057004FDDC9 /* 1.png in Resources */,
+				9FF4DEF01670D057004FDDC9 /* 2.png in Resources */,
+				9F327F7D1672AB10000C5EE8 /* SetDepositDetailViewController.xib in Resources */,
+				9F327F8716745DA5000C5EE8 /* CancelDepositViewController.xib in Resources */,
+				9F327F8C1674670B000C5EE8 /* CancelDepositDetailViewController.xib in Resources */,
+				9F327F91167490B5000C5EE8 /* HistoryPeriod2ViewController.xib in Resources */,
+				9F327F961674CFB0000C5EE8 /* TransferDetailViewController.xib in Resources */,
+				9FA5FDCD16755A7C00B21D65 /* 2009112100015180.jpg in Resources */,
+				9F183ECF167565F500F13D22 /* 10039035.jpg in Resources */,
+				9F183ED0167565F500F13D22 /* 1-12020f92124.jpg in Resources */,
+				9F183ED1167565F500F13D22 /* 6c697577616e6c696e3132332b313734342c312c3639347833303030.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BookManageAppDelegate.m in Sources */,
+				387D319D1277CBB1009009DA /* DataBase.m in Sources */,
+				387D33681277F6E7009009DA /* Book.m in Sources */,
+				387D33E312780C2F009009DA /* HomeViewController.m in Sources */,
+				387D341212780F12009009DA /* DetailViewController.m in Sources */,
+				387D341512781053009009DA /* CreatBookViewController.m in Sources */,
+				38D7C24A127E73EF00417AF3 /* FavViewController.m in Sources */,
+				38D7C24F127E746400417AF3 /* SearchViewController.m in Sources */,
+				38D7C61E127EBC3300417AF3 /* MemoDataBase.m in Sources */,
+				38D7C621127EBF3100417AF3 /* FavBook.m in Sources */,
+				9F2CA51B166B601900FC1AAF /* ViewController.m in Sources */,
+				9F2CA51F166B601900FC1AAF /* MaintainViewController.m in Sources */,
+				9F2CA521166B601900FC1AAF /* TransferViewController.m in Sources */,
+				9F327F951674CFB0000C5EE8 /* TransferDetailViewController.m in Sources */,
+				9F2CA525166B601900FC1AAF /* BalanceViewController.m in Sources */,
+				9F2CA527166B601900FC1AAF /* MainViewController.m in Sources */,
+				9F2CA51D166B601900FC1AAF /* HistoryViewController.m in Sources */,
+				9FF4DEE7166E9DE0004FDDC9 /* HistoryPeriodViewController.m in Sources */,
+				9F327F90167490B5000C5EE8 /* HistoryPeriod2ViewController.m in Sources */,
+				9F327F971675243F000C5EE8 /* DepositViewController.m in Sources */,
+				9F327F7C1672AB10000C5EE8 /* SetDepositDetailViewController.m in Sources */,
+				9F327F8616745DA5000C5EE8 /* CancelDepositViewController.m in Sources */,
+				9F327F8B1674670B000C5EE8 /* CancelDepositDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OnlineBank_Prefix.pch;
+				INFOPLIST_FILE = "OnlineBank-Info.plist";
+				PRODUCT_NAME = OnlineBank;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OnlineBank_Prefix.pch;
+				INFOPLIST_FILE = "OnlineBank-Info.plist";
+				PRODUCT_NAME = OnlineBank;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OnlineBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OnlineBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

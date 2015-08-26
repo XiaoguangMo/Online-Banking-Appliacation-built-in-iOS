@@ -1,0 +1,116 @@
+TBookManage
+v7
+r1
+cCheck dependencies
+
+N/Volumes/NO NAME/图书管理系统/Book.sqlite
+c000000004CCE5D3C0000000000008000
+t1288592700
+s32768
+
+N/Volumes/NO NAME/图书管理系统/Classes/image.png
+c000000004CC7FA8A00000000000010EF
+t1288174218
+s4335
+
+N/Volumes/NO NAME/图书管理系统/FavBook.sqlite
+c000000004CCE8D720000000000000800
+t1288605042
+s2048
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Resources/Book.sqlite
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Resources/FavBook.sqlite
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Resources/dsafsd .nib
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Resources/fav.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Resources/home.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Resources/image.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Resources/search.png
+t2
+s0
+
+N/Volumes/NO NAME/图书管理系统/dsafsd .xib
+c000000004CCE5C54000000000000183A
+t1288592468
+s6202
+
+N/Volumes/NO NAME/图书管理系统/fav.png
+c0000000049717D8A00000000000000E3
+t1232174474
+s227
+
+N/Volumes/NO NAME/图书管理系统/home.png
+c0000000049717D2C0000000000000177
+t1232174380
+s375
+
+N/Volumes/NO NAME/图书管理系统/search.png
+c0000000049717C4E0000000000000184
+t1232174158
+s388
+
+NBookManage-Info.plist
+c000000004CC7D4660000000000000356
+t1288164454
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313490159#313490160#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.0'1(4@58"error: There is no SDK with the name or path 'iphoneos4.0'313490160#18446744073709551615#0#0(1@0"0(0#1#0"8611013344#0"0#
+
+CCompileXIB "/Volumes/NO NAME/图书管理系统/dsafsd .xib"
+r0
+
+CCpResource build/Debug/BookManage.app/Contents/Resources/Book.sqlite Book.sqlite
+r0
+
+CCpResource build/Debug/BookManage.app/Contents/Resources/FavBook.sqlite FavBook.sqlite
+r0
+
+CCpResource build/Debug/BookManage.app/Contents/Resources/fav.png fav.png
+r0
+
+CCpResource build/Debug/BookManage.app/Contents/Resources/home.png home.png
+r0
+
+CCpResource build/Debug/BookManage.app/Contents/Resources/image.png Classes/image.png
+r0
+
+CCpResource build/Debug/BookManage.app/Contents/Resources/search.png search.png
+r0
+
+CProcessInfoPlistFile "/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app/Contents/Info.plist" BookManage-Info.plist
+r0
+
+CTouch "/Volumes/NO NAME/图书管理系统/build/Debug/BookManage.app"
+r0
+

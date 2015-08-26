@@ -1,0 +1,720 @@
+TBookManage
+v7
+r0
+t313659683.983086
+cCheck dependencies
+cProcessInfoPlistFile /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/Info.plist BookManage-Info.plist
+cCpResource build/Debug-iphonesimulator/BookManage.app/image.png Classes/image.png
+cCompileXIB "/Users/wangchao/Desktop/常用/图书管理系统/dsafsd .xib"
+cCpResource build/Debug-iphonesimulator/BookManage.app/Book.sqlite Book.sqlite
+cCpResource build/Debug-iphonesimulator/BookManage.app/home.png home.png
+cCpResource build/Debug-iphonesimulator/BookManage.app/search.png search.png
+cCpResource build/Debug-iphonesimulator/BookManage.app/fav.png fav.png
+cCpResource build/Debug-iphonesimulator/BookManage.app/FavBook.sqlite FavBook.sqlite
+cProcessPCH /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch.gch BookManage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/main.o /Users/wangchao/Desktop/常用/图书管理系统/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o /Users/wangchao/Desktop/常用/图书管理系统/DataBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o /Users/wangchao/Desktop/常用/图书管理系统/Book.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o /Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o /Users/wangchao/Desktop/常用/图书管理系统/FavBook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage normal i386
+cGenerateDSYMFile /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app.dSYM /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage
+cTouch /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/AvailabilityMacros.h
+c000000004CB3FA08000000000000673C
+t1286863368
+s26428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sqlite3.h
+c000000004CC109C90000000000042B54
+t1287719369
+s273236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Book.h
+c000000004CCE54E400000000000004B2
+t1288590564
+s1202
+i<Foundation/Foundation.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Book.m
+c000000004CD7EEAC000000000000128C
+t1289219756
+s4748
+i"Book.h"
+i"DataBase.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Book.sqlite
+c000000004CCE5D3C0000000000008000
+t1288592700
+s32768
+
+N/Users/wangchao/Desktop/常用/图书管理系统/BookManage_Prefix.pch
+c000000004CC793DA00000000000000BD
+t1288147930
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.h
+c000000004CC7D55C0000000000000193
+t1288164700
+s403
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.m
+c000000004CCE68440000000000000E22
+t1288595524
+s3618
+i"BookManageAppDelegate.h"
+i"HomeViewController.h"
+i"FavViewController.h"
+i"SearchViewController.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.h
+c000000004CCFC8F2000000000000019E
+t1288685810
+s414
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.m
+c000000004CCFD0BE0000000000001438
+t1288687806
+s5176
+i"CreatBookViewController.h"
+i"Book.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.h
+c000000004CCFCD500000000000000237
+t1288686928
+s567
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.m
+c000000004CD0C59A000000000000105D
+t1288750490
+s4189
+i"DetailViewController.h"
+i"FavBook.h"
+i"Book.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.h
+c000000004CCE95EA00000000000001D6
+t1288607210
+s470
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.m
+c000000004CCF7C040000000000001704
+t1288666116
+s5892
+i"FavViewController.h"
+i"DetailViewController.h"
+i"FavBook.h"
+i"Book.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.h
+c000000004CCF747C000000000000025E
+t1288664188
+s606
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.m
+c000000004CCFD2F6000000000000172A
+t1288688374
+s5930
+i"HomeViewController.h"
+i"CreatBookViewController.h"
+i"DetailViewController.h"
+i"Book.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.h
+c000000004CCEA00E00000000000001AA
+t1288609806
+s426
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.m
+c000000004CCFC0000000000000000DC0
+t1288683520
+s3520
+i"SearchViewController.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/Classes/image.png
+c000000004CC7FA8A00000000000010EF
+t1288174218
+s4335
+
+N/Users/wangchao/Desktop/常用/图书管理系统/DataBase.h
+c000000004CC7B1F20000000000000135
+t1288155634
+s309
+i<Foundation/Foundation.h>
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/DataBase.m
+c000000004CCE89A80000000000000529
+t1288604072
+s1321
+i"DataBase.h"
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/FavBook.h
+c000000004CCE890200000000000003BD
+t1288603906
+s957
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/FavBook.m
+c000000004CCE9C9E0000000000001324
+t1288608926
+s4900
+i"FavBook.h"
+i"FavDataBase.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/FavBook.sqlite
+c000000004CCE8D720000000000000800
+t1288605042
+s2048
+
+N/Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.h
+c000000004CCE8A86000000000000013C
+t1288604294
+s316
+i<Foundation/Foundation.h>
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.m
+c000000004CCE8A860000000000000537
+t1288604294
+s1335
+i"FavDataBase.h"
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabase.h
+c000000004C110BBA00000000000020DB
+t1276185530
+s8411
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseConnectionProvider.h
+c000000004C110BBA00000000000008CD
+t1276185530
+s2253
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationDelegate.h
+c000000004C110BBA0000000000000C20
+t1276185530
+s3104
+i"PlausibleDatabase.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationManager.h
+c000000004C110BBA0000000000000A00
+t1276185530
+s2560
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationTransactionManager.h
+c000000004C110BBA0000000000000E10
+t1276185530
+s3600
+i"PlausibleDatabase.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationVersionManager.h
+c000000004C110BBA0000000000000EA8
+t1276185530
+s3752
+i"PlausibleDatabase.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLPreparedStatement.h
+c000000004C110BBA00000000000014BF
+t1276185530
+s5311
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLResultSet.h
+c000000004C110BBA000000000000244B
+t1276185530
+s9291
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteConnectionProvider.h
+c000000004C110BBA0000000000000707
+t1276185530
+s1799
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteDatabase.h
+c000000004C110BBA0000000000000B5C
+t1276185530
+s2908
+i"sqlite3.h"
+i<sqlite3.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteMigrationVersionManager.h
+c000000004C110BBA00000000000006E4
+t1276185530
+s1764
+i"PlausibleDatabase.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLSqlitePreparedStatement.h
+c000000004C110BBA0000000000000BC9
+t1276185530
+s3017
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteResultSet.h
+c000000004C110BBA000000000000088C
+t1276185530
+s2188
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/Headers/PlausibleDatabase.h
+c000000004C110BBA0000000000002202
+t1276185530
+s8706
+i<Foundation/Foundation.h>
+i<AvailabilityMacros.h>
+i"PLResultSet.h"
+i"PLPreparedStatement.h"
+i"PLDatabase.h"
+i"PLSqliteDatabase.h"
+i"PLSqlitePreparedStatement.h"
+i"PLSqliteResultSet.h"
+i"PLDatabaseConnectionProvider.h"
+i"PLSqliteConnectionProvider.h"
+i"PLDatabaseMigrationVersionManager.h"
+i"PLDatabaseMigrationTransactionManager.h"
+i"PLDatabaseMigrationManager.h"
+i"PLDatabaseMigrationDelegate.h"
+i"PLSqliteMigrationVersionManager.h"
+
+N/Users/wangchao/Desktop/常用/图书管理系统/PlausibleDatabase.framework/PlausibleDatabase
+c000000004C110BBA0000000000076EE4
+t1276185530
+s487140
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o
+t1291966883
+s54996
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/BookManage.LinkFileList
+c000000004D01D9A00000000000000666
+t1291966880
+s1638
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o
+t1291966883
+s57884
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o
+t1291966883
+s61744
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o
+t1291966883
+s11152
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o
+t1291966883
+s65500
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o
+t1291966883
+s15644
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o
+t1291966883
+s11204
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o
+t1291966883
+s67520
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o
+t1291966883
+s68652
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o
+t1291966883
+s57940
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/main.o
+t1291966883
+s6512
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app
+t1291966883
+s408
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app.dSYM
+t1291966883
+s102
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/Book.sqlite
+t1291966881
+s32768
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage
+t1291966883
+s130348
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/FavBook.sqlite
+t1291966881
+s2048
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/Info.plist
+t1291966880
+s570
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/PkgInfo
+t1291966880
+s8
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/dsafsd .nib
+t1291966881
+s720
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/fav.png
+t1291966881
+s227
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/home.png
+t1291966881
+s375
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/image.png
+t1291966880
+s4335
+
+N/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/search.png
+t1291966881
+s388
+
+N/Users/wangchao/Desktop/常用/图书管理系统/dsafsd .xib
+c000000004CCE5C54000000000000183A
+t1288592468
+s6202
+
+N/Users/wangchao/Desktop/常用/图书管理系统/fav.png
+c0000000049717D8A00000000000000E3
+t1232174474
+s227
+
+N/Users/wangchao/Desktop/常用/图书管理系统/home.png
+c0000000049717D2C0000000000000177
+t1232174380
+s375
+
+N/Users/wangchao/Desktop/常用/图书管理系统/main.m
+c000000004CC7D466000000000000017E
+t1288164454
+s382
+i<UIKit/UIKit.h>
+
+N/Users/wangchao/Desktop/常用/图书管理系统/search.png
+c0000000049717C4E0000000000000184
+t1232174158
+s388
+
+N/var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch.gch
+t1291966882
+s15453392
+
+NBookManage-Info.plist
+c000000004CC7D4660000000000000356
+t1288164454
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313659680#313659680#0(0"0(0#1#0"8645602528#0"0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o /Users/wangchao/Desktop/常用/图书管理系统/Book.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.121634
+e313659683.316705
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o
+x/Users/wangchao/Desktop/常用/图书管理系统/Book.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/wangchao/Desktop/常用/图书管理系统/Book.m313659683#313659683#0(0"0(0#0#56"/Users/wangchao/Desktop/常用/图书管理系统/Book.m8647333280#2147"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/Book.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659682.941030
+e313659683.121523
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o
+x/Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.m313659682#313659683#0(0"0(0#0#81"/Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.m8647330176#2189"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/Classes/BookManageAppDelegate.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.388237
+e313659683.529461
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o
+x/Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.m313659683#313659683#0(0"0(0#0#83"/Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.m8647222048#2193"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/Classes/CreatBookViewController.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o /Users/wangchao/Desktop/常用/图书管理系统/DataBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.022471
+e313659683.158763
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o
+x/Users/wangchao/Desktop/常用/图书管理系统/DataBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/wangchao/Desktop/常用/图书管理系统/DataBase.m313659683#313659683#0(0"0(0#0#60"/Users/wangchao/Desktop/常用/图书管理系统/DataBase.m8644522752#2155"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/DataBase.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.316807
+e313659683.432056
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o
+x/Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.m313659683#313659683#0(0"0(0#0#80"/Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.m8647594880#2187"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/Classes/DetailViewController.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o /Users/wangchao/Desktop/常用/图书管理系统/FavBook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.674838
+e313659683.766201
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o
+x/Users/wangchao/Desktop/常用/图书管理系统/FavBook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/wangchao/Desktop/常用/图书管理系统/FavBook.m313659683#313659683#0(0"0(0#0#59"/Users/wangchao/Desktop/常用/图书管理系统/FavBook.m8647424608#2153"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/FavBook.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o /Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.578293
+e313659683.674685
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o
+x/Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.m313659683#313659683#0(0"0(0#0#63"/Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.m8647292448#2161"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/FavDataBase.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.432156
+e313659683.578195
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o
+x/Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.m313659683#313659683#0(0"0(0#0#77"/Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.m8646277600#2181"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/Classes/FavViewController.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.158866
+e313659683.388129
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o
+x/Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.m313659683#313659683#0(0"0(0#0#78"/Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.m8647100000#2183"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/Classes/HomeViewController.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o /Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659683.529567
+e313659683.711738
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o
+x/Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.m313659683#313659683#0(0"0(0#0#80"/Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.m8647541792#2187"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/Classes/SearchViewController.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o0#
+
+CCompileC build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/main.o /Users/wangchao/Desktop/常用/图书管理系统/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659682.927484
+e313659683.022223
+r1
+xCompileC
+xbuild/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/main.o
+x/Users/wangchao/Desktop/常用/图书管理系统/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/wangchao/Desktop/常用/图书管理系统/main.m313659682#313659683#0(0"0(0#0#56"/Users/wangchao/Desktop/常用/图书管理系统/main.m8648716992#2147"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -include /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch -c /Users/wangchao/Desktop/常用/图书管理系统/main.m -o /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/main.o0#
+
+CCompileXIB "/Users/wangchao/Desktop/常用/图书管理系统/dsafsd .xib"
+s313659680.908707
+e313659681.268060
+r1
+xCompileXIB
+x/Users/wangchao/Desktop/常用/图书管理系统/dsafsd .xib
+lSLF07#2@24"CompileXIB "dsafsd .xib"313659680#313659681#0(0"0(0#0#61"/Users/wangchao/Desktop/常用/图书管理系统/dsafsd .xib8638860576#604"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/dsafsd .nib" "/Users/wangchao/Desktop/常用/图书管理系统/dsafsd .xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/BookManage.app/Book.sqlite Book.sqlite
+s313659681.091185
+e313659681.121218
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BookManage.app/Book.sqlite
+xBook.sqlite
+lSLF07#2@16"Copy Book.sqlite313659681#313659681#0(0"0(0#0#61"/Users/wangchao/Desktop/常用/图书管理系统/Book.sqlite8649169472#505"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wangchao/Desktop/常用/图书管理系统/Book.sqlite /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app0#
+
+CCpResource build/Debug-iphonesimulator/BookManage.app/FavBook.sqlite FavBook.sqlite
+s313659681.099462
+e313659681.108603
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BookManage.app/FavBook.sqlite
+xFavBook.sqlite
+lSLF07#2@19"Copy FavBook.sqlite313659681#313659681#0(0"0(0#0#64"/Users/wangchao/Desktop/常用/图书管理系统/FavBook.sqlite8646940960#508"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wangchao/Desktop/常用/图书管理系统/FavBook.sqlite /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app0#
+
+CCpResource build/Debug-iphonesimulator/BookManage.app/fav.png fav.png
+s313659681.097230
+e313659681.107549
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BookManage.app/fav.png
+xfav.png
+lSLF07#2@12"Copy fav.png313659681#313659681#0(0"0(0#0#57"/Users/wangchao/Desktop/常用/图书管理系统/fav.png8647199072#501"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wangchao/Desktop/常用/图书管理系统/fav.png /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app0#
+
+CCpResource build/Debug-iphonesimulator/BookManage.app/home.png home.png
+s313659681.092949
+e313659681.108782
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BookManage.app/home.png
+xhome.png
+lSLF07#2@13"Copy home.png313659681#313659681#0(0"0(0#0#58"/Users/wangchao/Desktop/常用/图书管理系统/home.png8648721024#502"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wangchao/Desktop/常用/图书管理系统/home.png /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app0#
+
+CCpResource build/Debug-iphonesimulator/BookManage.app/image.png Classes/image.png
+s313659680.907898
+e313659681.091088
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BookManage.app/image.png
+xClasses/image.png
+lSLF07#2@22"Copy Classes/image.png313659680#313659681#0(0"0(0#0#67"/Users/wangchao/Desktop/常用/图书管理系统/Classes/image.png8640008992#511"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wangchao/Desktop/常用/图书管理系统/Classes/image.png /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app0#
+
+CCpResource build/Debug-iphonesimulator/BookManage.app/search.png search.png
+s313659681.095321
+e313659681.126198
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BookManage.app/search.png
+xsearch.png
+lSLF07#2@15"Copy search.png313659681#313659681#0(0"0(0#0#60"/Users/wangchao/Desktop/常用/图书管理系统/search.png8647427168#504"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/wangchao/Desktop/常用/图书管理系统/search.png /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app0#
+
+CGenerateDSYMFile /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app.dSYM /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage
+s313659683.894185
+e313659683.979386
+r1
+xGenerateDSYMFile
+x/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app.dSYM
+x/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/BookManage.app.dSYM build/Debug-iphonesimulator/BookManage.app/BookManage313659683#313659683#0(0"0(0#0#103"/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage8645709664#425"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage -o /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app.dSYM0#
+
+CLd /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage normal i386
+s313659683.766295
+e313659683.893853
+r1
+xLd
+x/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage
+xnormal
+xi386
+lSLF07#2@108"Link /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage313659683#313659683#0(0"0(0#0#0"8646818016#1061"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -filelist /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/Objects-normal/i386/BookManage.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -framework PlausibleDatabase -o /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/BookManage0#
+
+CProcessInfoPlistFile /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/Info.plist BookManage-Info.plist
+s313659680.903988
+e313659680.907812
+r1
+xProcessInfoPlistFile
+x/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/Info.plist
+xBookManage-Info.plist
+lSLF07#2@29"Process BookManage-Info.plist313659680#313659680#0(0"0(0#0#71"/Users/wangchao/Desktop/常用/图书管理系统/BookManage-Info.plist8645803072#521"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BookManage-Info.plist -genpkginfo /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app/Info.plist0#
+
+CProcessPCH /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch.gch BookManage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313659681.268243
+e313659682.927186
+r1
+xProcessPCH
+x/var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch.gch
+xBookManage_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile BookManage_Prefix.pch313659681#313659682#0(0"0(0#0#71"/Users/wangchao/Desktop/常用/图书管理系统/BookManage_Prefix.pch8649031808#2025"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-generated-files.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap -iquote /Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/BookManage-project-headers.hmap -F/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator -F/Users/wangchao/Desktop/常用/图书管理系统 -I/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/include -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources/i386 -I/Users/wangchao/Desktop/常用/图书管理系统/build/BookManage.build/Debug-iphonesimulator/BookManage.build/DerivedSources -c /Users/wangchao/Desktop/常用/图书管理系统/BookManage_Prefix.pch -o /var/folders/OK/OKoArWi2GbqLE0x9W9nohU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-culoxuxtimxapoaztyqzjjqkaali/BookManage_Prefix.pch.gch0#
+
+CTouch /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app
+s313659683.979475
+e313659683.983048
+r1
+xTouch
+x/Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app
+lSLF07#2@98"Touch /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app313659683#313659683#0(0"0(0#0#0"8644205600#303"    cd /Users/wangchao/Desktop/常用/图书管理系统    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/wangchao/Desktop/常用/图书管理系统/build/Debug-iphonesimulator/BookManage.app0#
+

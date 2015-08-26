@@ -1,0 +1,720 @@
+TBookManage
+v7
+r0
+t313490180.548576
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/Info.plist" BookManage-Info.plist
+cCpResource build/Release-iphonesimulator/BookManage.app/image.png Classes/image.png
+cCompileXIB "/Volumes/NO NAME/图书管理系统/dsafsd .xib"
+cCpResource build/Release-iphonesimulator/BookManage.app/Book.sqlite Book.sqlite
+cCpResource build/Release-iphonesimulator/BookManage.app/home.png home.png
+cCpResource build/Release-iphonesimulator/BookManage.app/search.png search.png
+cCpResource build/Release-iphonesimulator/BookManage.app/fav.png fav.png
+cCpResource build/Release-iphonesimulator/BookManage.app/FavBook.sqlite FavBook.sqlite
+cProcessPCH /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch.gch BookManage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/main.o "/Volumes/NO NAME/图书管理系统/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o "/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o "/Volumes/NO NAME/图书管理系统/DataBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o "/Volumes/NO NAME/图书管理系统/Book.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o "/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o "/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o "/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o "/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o "/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o "/Volumes/NO NAME/图书管理系统/FavDataBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o "/Volumes/NO NAME/图书管理系统/FavBook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage" normal i386
+cGenerateDSYMFile "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app.dSYM" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage"
+cTouch "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/AvailabilityMacros.h
+c000000004CB3FA08000000000000673C
+t1286863368
+s26428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sqlite3.h
+c000000004CC109C90000000000042B54
+t1287719369
+s273236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/Volumes/NO NAME/图书管理系统/Book.h
+c000000004CCE54E400000000000004B2
+t1288590564
+s1202
+i<Foundation/Foundation.h>
+
+N/Volumes/NO NAME/图书管理系统/Book.m
+c000000004CD7EEAC000000000000128C
+t1289219756
+s4748
+i"Book.h"
+i"DataBase.h"
+
+N/Volumes/NO NAME/图书管理系统/Book.sqlite
+c000000004CCE5D3C0000000000008000
+t1288592700
+s32768
+
+N/Volumes/NO NAME/图书管理系统/BookManage_Prefix.pch
+c000000004CC793DA00000000000000BD
+t1288147930
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.h
+c000000004CC7D55C0000000000000193
+t1288164700
+s403
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m
+c000000004CCE68440000000000000E22
+t1288595524
+s3618
+i"BookManageAppDelegate.h"
+i"HomeViewController.h"
+i"FavViewController.h"
+i"SearchViewController.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.h
+c000000004CCFC8F2000000000000019E
+t1288685810
+s414
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m
+c000000004CCFD0BE0000000000001438
+t1288687806
+s5176
+i"CreatBookViewController.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.h
+c000000004CCFCD500000000000000237
+t1288686928
+s567
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m
+c000000004CD0C59A000000000000105D
+t1288750490
+s4189
+i"DetailViewController.h"
+i"FavBook.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/FavViewController.h
+c000000004CCE95EA00000000000001D6
+t1288607210
+s470
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m
+c000000004CCF7C040000000000001704
+t1288666116
+s5892
+i"FavViewController.h"
+i"DetailViewController.h"
+i"FavBook.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.h
+c000000004CCF747C000000000000025E
+t1288664188
+s606
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m
+c000000004CCFD2F6000000000000172A
+t1288688374
+s5930
+i"HomeViewController.h"
+i"CreatBookViewController.h"
+i"DetailViewController.h"
+i"Book.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.h
+c000000004CCEA00E00000000000001AA
+t1288609806
+s426
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m
+c000000004CCFC0000000000000000DC0
+t1288683520
+s3520
+i"SearchViewController.h"
+
+N/Volumes/NO NAME/图书管理系统/Classes/image.png
+c000000004CC7FA8A00000000000010EF
+t1288174218
+s4335
+
+N/Volumes/NO NAME/图书管理系统/DataBase.h
+c000000004CC7B1F20000000000000135
+t1288155634
+s309
+i<Foundation/Foundation.h>
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/DataBase.m
+c000000004CCE89A80000000000000529
+t1288604072
+s1321
+i"DataBase.h"
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/FavBook.h
+c000000004CCE890200000000000003BD
+t1288603906
+s957
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/FavBook.m
+c000000004CCE9C9E0000000000001324
+t1288608926
+s4900
+i"FavBook.h"
+i"FavDataBase.h"
+
+N/Volumes/NO NAME/图书管理系统/FavBook.sqlite
+c000000004CCE8D720000000000000800
+t1288605042
+s2048
+
+N/Volumes/NO NAME/图书管理系统/FavDataBase.h
+c000000004CCE8A86000000000000013C
+t1288604294
+s316
+i<Foundation/Foundation.h>
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/FavDataBase.m
+c000000004CCE8A860000000000000537
+t1288604294
+s1335
+i"FavDataBase.h"
+i<PlausibleDatabase/PlausibleDatabase.h>
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabase.h
+c000000004C110BBA00000000000020DB
+t1276185530
+s8411
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseConnectionProvider.h
+c000000004C110BBA00000000000008CD
+t1276185530
+s2253
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationDelegate.h
+c000000004C110BBA0000000000000C20
+t1276185530
+s3104
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationManager.h
+c000000004C110BBA0000000000000A00
+t1276185530
+s2560
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationTransactionManager.h
+c000000004C110BBA0000000000000E10
+t1276185530
+s3600
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLDatabaseMigrationVersionManager.h
+c000000004C110BBA0000000000000EA8
+t1276185530
+s3752
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLPreparedStatement.h
+c000000004C110BBA00000000000014BF
+t1276185530
+s5311
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLResultSet.h
+c000000004C110BBA000000000000244B
+t1276185530
+s9291
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteConnectionProvider.h
+c000000004C110BBA0000000000000707
+t1276185530
+s1799
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteDatabase.h
+c000000004C110BBA0000000000000B5C
+t1276185530
+s2908
+i"sqlite3.h"
+i<sqlite3.h>
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteMigrationVersionManager.h
+c000000004C110BBA00000000000006E4
+t1276185530
+s1764
+i"PlausibleDatabase.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqlitePreparedStatement.h
+c000000004C110BBA0000000000000BC9
+t1276185530
+s3017
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PLSqliteResultSet.h
+c000000004C110BBA000000000000088C
+t1276185530
+s2188
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/Headers/PlausibleDatabase.h
+c000000004C110BBA0000000000002202
+t1276185530
+s8706
+i<Foundation/Foundation.h>
+i<AvailabilityMacros.h>
+i"PLResultSet.h"
+i"PLPreparedStatement.h"
+i"PLDatabase.h"
+i"PLSqliteDatabase.h"
+i"PLSqlitePreparedStatement.h"
+i"PLSqliteResultSet.h"
+i"PLDatabaseConnectionProvider.h"
+i"PLSqliteConnectionProvider.h"
+i"PLDatabaseMigrationVersionManager.h"
+i"PLDatabaseMigrationTransactionManager.h"
+i"PLDatabaseMigrationManager.h"
+i"PLDatabaseMigrationDelegate.h"
+i"PLSqliteMigrationVersionManager.h"
+
+N/Volumes/NO NAME/图书管理系统/PlausibleDatabase.framework/PlausibleDatabase
+c000000004C110BBA0000000000076EE4
+t1276185530
+s487140
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o
+t1291797376
+s53676
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/BookManage.LinkFileList
+c000000004CFF437E00000000000005E2
+t1291797374
+s1506
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o
+t1291797376
+s56932
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o
+t1291797378
+s57476
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o
+t1291797376
+s10784
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o
+t1291797378
+s62416
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o
+t1291797378
+s14744
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o
+t1291797378
+s10840
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o
+t1291797378
+s63512
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o
+t1291797378
+s64704
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o
+t1291797378
+s55060
+
+N/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/main.o
+t1291797376
+s6464
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app
+t1291797380
+s4096
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app.dSYM
+t1291797380
+s4096
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/Book.sqlite
+t1291797374
+s32768
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage
+t1291797378
+s121392
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/FavBook.sqlite
+t1291797374
+s2048
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/Info.plist
+t1291797374
+s570
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/PkgInfo
+t1291797374
+s8
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/dsafsd .nib
+t1291797376
+s720
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/fav.png
+t1291797374
+s227
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/home.png
+t1291797374
+s375
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/image.png
+t1291797374
+s4335
+
+N/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/search.png
+t1291797374
+s388
+
+N/Volumes/NO NAME/图书管理系统/dsafsd .xib
+c000000004CCE5C54000000000000183A
+t1288592468
+s6202
+
+N/Volumes/NO NAME/图书管理系统/fav.png
+c0000000049717D8A00000000000000E3
+t1232174474
+s227
+
+N/Volumes/NO NAME/图书管理系统/home.png
+c0000000049717D2C0000000000000177
+t1232174380
+s375
+
+N/Volumes/NO NAME/图书管理系统/main.m
+c000000004CC7D466000000000000017E
+t1288164454
+s382
+i<UIKit/UIKit.h>
+
+N/Volumes/NO NAME/图书管理系统/search.png
+c0000000049717C4E0000000000000184
+t1232174158
+s388
+
+N/var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch.gch
+t1291797377
+s15113424
+
+NBookManage-Info.plist
+c000000004CC7D4660000000000000356
+t1288164454
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313490174#313490175#0(0"0(0#1#0"8626188960#0"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o "/Volumes/NO NAME/图书管理系统/Book.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490177.760851
+e313490177.992308
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o
+x/Volumes/NO NAME/图书管理系统/Book.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Volumes/NO NAME/图书管理系统/Book.m313490177#313490178#0(0"0(0#0#42"/Volumes/NO NAME/图书管理系统/Book.m8629576864#2062"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/Book.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/Book.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o "/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490177.611041
+e313490177.760738
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o
+x/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m313490177#313490177#0(0"0(0#0#67"/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m8617875584#2104"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/Classes/BookManageAppDelegate.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/BookManageAppDelegate.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o "/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490178.271523
+e313490178.529235
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o
+x/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m313490178#313490178#0(0"0(0#0#69"/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m8632452000#2108"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/Classes/CreatBookViewController.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/CreatBookViewController.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o "/Volumes/NO NAME/图书管理系统/DataBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490177.704215
+e313490177.870523
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o
+x/Volumes/NO NAME/图书管理系统/DataBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Volumes/NO NAME/图书管理系统/DataBase.m313490177#313490177#0(0"0(0#0#46"/Volumes/NO NAME/图书管理系统/DataBase.m8634195104#2070"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/DataBase.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DataBase.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o "/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490177.992409
+e313490178.297220
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o
+x/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m313490177#313490178#0(0"0(0#0#66"/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m8601965568#2102"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/Classes/DetailViewController.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/DetailViewController.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o "/Volumes/NO NAME/图书管理系统/FavBook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490178.744214
+e313490179.285575
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o
+x/Volumes/NO NAME/图书管理系统/FavBook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Volumes/NO NAME/图书管理系统/FavBook.m313490178#313490179#0(0"0(0#0#45"/Volumes/NO NAME/图书管理系统/FavBook.m8634218272#2068"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/FavBook.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavBook.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o "/Volumes/NO NAME/图书管理系统/FavDataBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490178.661556
+e313490178.767871
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o
+x/Volumes/NO NAME/图书管理系统/FavDataBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Volumes/NO NAME/图书管理系统/FavDataBase.m313490178#313490178#0(0"0(0#0#49"/Volumes/NO NAME/图书管理系统/FavDataBase.m8622933984#2076"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/FavDataBase.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavDataBase.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o "/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490178.297330
+e313490178.661447
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o
+x/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Volumes/NO NAME/图书管理系统/Classes/FavViewController.m313490178#313490178#0(0"0(0#0#63"/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m8616391136#2096"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/Classes/FavViewController.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/FavViewController.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o "/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490177.870625
+e313490178.271417
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o
+x/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m313490177#313490178#0(0"0(0#0#64"/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m8618573440#2098"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/Classes/HomeViewController.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/HomeViewController.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o "/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490178.529345
+e313490178.744046
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o
+x/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m313490178#313490178#0(0"0(0#0#66"/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m8623192160#2102"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/Classes/SearchViewController.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/SearchViewController.o"0#
+
+CCompileC build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/main.o "/Volumes/NO NAME/图书管理系统/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490177.609498
+e313490177.704104
+r1
+xCompileC
+xbuild/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/main.o
+x/Volumes/NO NAME/图书管理系统/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Volumes/NO NAME/图书管理系统/main.m313490177#313490177#0(0"0(0#0#42"/Volumes/NO NAME/图书管理系统/main.m8637798336#2062"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch -c "/Volumes/NO NAME/图书管理系统/main.m" -o "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Volumes/NO NAME/图书管理系统/dsafsd .xib"
+s313490175.107818
+e313490176.306036
+r1
+xCompileXIB
+x/Volumes/NO NAME/图书管理系统/dsafsd .xib
+lSLF07#2@24"CompileXIB "dsafsd .xib"313490175#313490176#0(0"0(0#0#47"/Volumes/NO NAME/图书管理系统/dsafsd .xib8622031648#566"    cd "/Volumes/NO NAME/图书管理系统"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/dsafsd .nib" "/Volumes/NO NAME/图书管理系统/dsafsd .xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Release-iphonesimulator/BookManage.app/Book.sqlite Book.sqlite
+s313490175.134352
+e313490175.154336
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BookManage.app/Book.sqlite
+xBook.sqlite
+lSLF07#2@16"Copy Book.sqlite313490175#313490175#0(0"0(0#0#47"/Volumes/NO NAME/图书管理系统/Book.sqlite8621731712#492"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/NO NAME/图书管理系统/Book.sqlite" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"0#
+
+CCpResource build/Release-iphonesimulator/BookManage.app/FavBook.sqlite FavBook.sqlite
+s313490175.137329
+e313490175.156186
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BookManage.app/FavBook.sqlite
+xFavBook.sqlite
+lSLF07#2@19"Copy FavBook.sqlite313490175#313490175#0(0"0(0#0#50"/Volumes/NO NAME/图书管理系统/FavBook.sqlite8618067232#495"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/NO NAME/图书管理系统/FavBook.sqlite" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"0#
+
+CCpResource build/Release-iphonesimulator/BookManage.app/fav.png fav.png
+s313490175.136692
+e313490175.154959
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BookManage.app/fav.png
+xfav.png
+lSLF07#2@12"Copy fav.png313490175#313490175#0(0"0(0#0#43"/Volumes/NO NAME/图书管理系统/fav.png8618224416#488"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/NO NAME/图书管理系统/fav.png" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"0#
+
+CCpResource build/Release-iphonesimulator/BookManage.app/home.png home.png
+s313490175.135408
+e313490175.154130
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BookManage.app/home.png
+xhome.png
+lSLF07#2@13"Copy home.png313490175#313490175#0(0"0(0#0#44"/Volumes/NO NAME/图书管理系统/home.png8616735040#489"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/NO NAME/图书管理系统/home.png" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"0#
+
+CCpResource build/Release-iphonesimulator/BookManage.app/image.png Classes/image.png
+s313490175.086502
+e313490175.134249
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BookManage.app/image.png
+xClasses/image.png
+lSLF07#2@22"Copy Classes/image.png313490175#313490175#0(0"0(0#0#53"/Volumes/NO NAME/图书管理系统/Classes/image.png8622283072#498"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/NO NAME/图书管理系统/Classes/image.png" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"0#
+
+CCpResource build/Release-iphonesimulator/BookManage.app/search.png search.png
+s313490175.136074
+e313490175.154451
+r1
+xCpResource
+xbuild/Release-iphonesimulator/BookManage.app/search.png
+xsearch.png
+lSLF07#2@15"Copy search.png313490175#313490175#0(0"0(0#0#46"/Volumes/NO NAME/图书管理系统/search.png8601764192#491"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/NO NAME/图书管理系统/search.png" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"0#
+
+CGenerateDSYMFile "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app.dSYM" "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage"
+s313490179.916492
+e313490180.545001
+r1
+xGenerateDSYMFile
+x/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app.dSYM
+x/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage
+lSLF07#2@122"GenerateDSYMFile build/Release-iphonesimulator/BookManage.app.dSYM build/Release-iphonesimulator/BookManage.app/BookManage313490179#313490180#0(0"0(0#0#91"/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage8618130400#393"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage" -o "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app.dSYM"0#
+
+CLd "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage" normal i386
+s313490179.286020
+e313490179.916187
+r1
+xLd
+x/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage
+xnormal
+xi386
+lSLF07#2@96"Link /Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage313490179#313490179#0(0"0(0#0#0"8626128512#997"    cd "/Volumes/NO NAME/图书管理系统"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" -filelist "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/Objects-normal/i386/BookManage.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3 -framework PlausibleDatabase -o "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/BookManage"0#
+
+CProcessInfoPlistFile "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/Info.plist" BookManage-Info.plist
+s313490175.074523
+e313490175.086310
+r1
+xProcessInfoPlistFile
+x/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/Info.plist
+xBookManage-Info.plist
+lSLF07#2@29"Process BookManage-Info.plist313490175#313490175#0(0"0(0#0#57"/Volumes/NO NAME/图书管理系统/BookManage-Info.plist8623024384#489"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BookManage-Info.plist -genpkginfo "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app/Info.plist"0#
+
+CProcessPCH /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch.gch BookManage_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313490176.306163
+e313490177.609300
+r1
+xProcessPCH
+x/var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch.gch
+xBookManage_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile BookManage_Prefix.pch313490176#313490177#0(0"0(0#0#57"/Volumes/NO NAME/图书管理系统/BookManage_Prefix.pch8629370464#1950"    cd "/Volumes/NO NAME/图书管理系统"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-generated-files.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-own-target-headers.hmap" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-all-target-headers.hmap" -iquote "/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/BookManage-project-headers.hmap" "-F/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator" "-F/Volumes/NO NAME/图书管理系统" "-I/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/include" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources/i386" "-I/Volumes/NO NAME/图书管理系统/build/BookManage.build/Release-iphonesimulator/BookManage.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Volumes/NO NAME/图书管理系统/BookManage_Prefix.pch" -o /var/folders/WB/WBoipAltGk0ODHY1iMqVv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BookManage_Prefix-gnwssmyygvwchaamqcnidvpezmly/BookManage_Prefix.pch.gch0#
+
+CTouch "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"
+s313490180.545106
+e313490180.548530
+r1
+xTouch
+x/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app
+lSLF07#2@86"Touch /Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app313490180#313490180#0(0"0(0#0#0"8632467392#281"    cd "/Volumes/NO NAME/图书管理系统"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/NO NAME/图书管理系统/build/Release-iphonesimulator/BookManage.app"0#
+
